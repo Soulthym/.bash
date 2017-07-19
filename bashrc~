@@ -117,5 +117,3 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-export PS1="\[$(tput bold)\]\[\033[38;5;210m\]\t\[$(tput sgr0)\]\[\033[38;5;15m\]-\[$(tput sgr0)\]\[\033[38;5;76m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\]\[\033[38;5;214m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]>\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;7m\] \[$(tput sgr0)\]"
